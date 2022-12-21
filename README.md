@@ -1,1 +1,2 @@
-# reddit-arc-boost
+# minimal-reddit-arc
+Minimal Reddit Arc Boost
