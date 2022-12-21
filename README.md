@@ -1,2 +1,2 @@
-# minimal-reddit-arc
-Minimal Reddit Arc Boost
+# gcal-color-boost
+Google Calendar adaptive color Boost for Arc Browser
