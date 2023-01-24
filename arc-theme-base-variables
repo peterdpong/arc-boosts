@@ -1,0 +1,13 @@
+--arc-palette-minContrastColor
+--arc-palette-foregroundTertiary
+--arc-palette-foregroundPrimary
+ --arc-palette-background
+ --arc-palette-focus
+ --arc-palette-backgroundExtra
+ --arc-palette-title
+ --arc-palette-subtitle
+ --arc-palette-foregroundSecondary
+ --arc-palette-hover
+ --arc-background-simple-color
+ --arc-palette-maxContrastColor
+ --arc-palette-cutoutColor

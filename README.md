@@ -1,7 +1,9 @@
 # Arc Boost Collection
 Warning: Work in progress (Mostly working)
 
-Adapts colors of Google Calendar based on your Arc Browser theme.
+## List of Boosts
+1. Adaptive colors for Google Calendar based on your Arc Browser Theme. (currently only dark mode supported)
+
 ## Usage/Install (Arc Browser only)
 1. Open Google Calendar (calendar.google.com)
 2. Press the `+` icon in the sidebar and click `New Boost`

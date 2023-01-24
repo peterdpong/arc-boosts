@@ -1,0 +1,74 @@
+:root {
+  --primary: var(--arc-palette-cutoutColor) !important;
+  --primary-variant: var(--arc-palette-cutoutColor) !important;
+
+  --secondary: var(--arc-palette-background) !important;
+  --secondary-variant: var(--arc-palette-backgroundExtra) !important;
+  --on-secondary: var(--arc-palette-cutoutColor) !important;
+  --on-secondary-variant: var(--arc-palette-foregroundPrimary) !important;
+
+  --background: var(--arc-palette-background) !important;
+  --surface: var(--arc-palette-background) !important;
+
+  --on-primary: var(--arc-palette-background) !important;
+  --on-surface: var(--arc-palette-foregroundPrimary) !important;
+  --dimmed: var(--arc-palette-foregroundPrimary) !important;
+  --on-surface-variant-agm: var(--arc-palette-foregroundPrimary) !important;
+
+  --fab: var(--arc-palette-background) !important;
+  --fab-hover: var(--arc-palette-hover) !important;
+
+  --hairline: var(--arc-palette-backgroundExtra) !important;
+
+  --textfield-surface: var(--arc-palette-cutoutColor) !important;
+  --textfield-primary: var(--arc-palette-cutoutColor) !important;
+  --textfield-hairline: var(--arc-palette-backgroundExtra) !important;
+  --textfield-on-surface-variant: var(--arc-palette-foregroundPrimary) !important;
+
+  --chip-hover: var(--arc-palette-hover) !important;
+  --bubble-tab-hover: var(--arc-palette-hover) !important;
+}
+
+/* This is to apply for text color of passed events */
+[data-opens-details="true"] {
+  --on-surface: var(--arc-palette-cutoutColor) !important;
+}
+
+/* Today button at top */
+[aria-label^="Today"] {
+  color: var(--arc-palette-foregroundPrimary) !important;
+}
+/* Google Calendar Logo Text */
+[role="heading"] {
+  color: var(--arc-palette-foregroundPrimary) !important;
+}
+
+/* This is to apply for pesky tab hovers */
+[data-datekey][data-dragsource-ignore]:hover {
+  background-color: var(--arc-palette-hover) !important;
+}
+
+[data-date]:hover div {
+  background-color: var(--arc-palette-hover) !important;
+}
+
+[data-date]:active div {
+  background-color: var(--arc-palette-cutoutColor) !important;
+}
+
+[data-date] div:hover {
+  background-color: var(--arc-palette-hover) !important;
+}
+
+[data-date]:hover div:hover div:hover:focus {
+  background-color: var(--arc-palette-cutoutColor) !important;
+}
+
+[data-date] div:focus div:active div:link {
+  background-color: var(--arc-palette-cutoutColor) !important;
+}
+
+header {
+  background-color: var(--arc-palette-background) !important;
+}
+
